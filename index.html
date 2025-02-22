@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>ORITO PLAY - </title>
+
+    <!-- Live Counter Script -->
+    <script id="_wauho6">
+        var _wau = _wau || [];
+        _wau.push(["dynamic", "1yo0zvn60h", "ho6", "c4302bffffff", "small"]);
+    </script>
+    <script async src="//waust.at/d.js"></script>
+</head>
+
+<body>
+    <div class="menu">
+        <div class="logo-container">
+            <div class="logo">
+                <i class="fas fa-play-circle"></i> ORITO PLAY </div>
+            <label for="fileInput" class="upload-btn"><i class="fas fa-cloud-upload-alt"></i> Upload Video</label>
+        </div>
+        <div class="menu-icons">
+            <i class="fas fa-bars" id="menuIcon"></i>
+        </div>
+        <div class="menu-links">
+            <a href="#"><i class="fas fa-shield-alt"></i> Privacy Policy</a>
+            <a href="#"><i class="fas fa-file-contract"></i> Terms of Service</a>
+            <a href="#"><i class="fas fa-exclamation-triangle"></i> Report Abuse</a>
+            <a href="admin/login.php" class="admin-link"><i class="fas fa-user-shield"></i> Admin</a>
+        </div>
+    </div>
+    <div class="menu-line"></div>
+
+    <div class="main-content">
+        <div class="hero-section">
+            <h1><i class="fas fa-film"></i> ORITO PLAY</h1>
+            <p></p>
+        </div>
+
+        <!-- Upload Progress Modal -->
+        <div id="uploadModal" class="modal">
+            <div class="modal-content">
+                <div class="progress-container">
+                    <h3><i class="fas fa-upload"></i> Uploading Video</h3>
+                    <div class="progress-bar">
+                        <div class="progress" id="uploadProgress"></div>
+                    </div>
+                    <p id="uploadStatus">Preparing upload...</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- File Upload Section -->
+        <div class="upload-container">
+            <div class="upload-section">
+                <input type="file" id="fileInput" accept="video/*" />
+                <div class="upload-area" id="dropZone">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                    <h3>Drag & Drop your video here</h3>
+                    <p>or</p>
+                    <label for="fileInput" class="upload-btn">Browse Files</label>
+                    <p class="upload-info">Maximum file size: 500MB</p>
+                </div>
+            </div>
+
+            <!-- URL Input Section -->
+            <div class="url-section">
+                <div class="url-input-container">
+                    <i class="fas fa-link"></i>
+                    <input type="text" id="urlInput" placeholder="Or paste a video URL here" class="url-input">
+                    <button id="addUrlBtn" class="upload-btn">Add URL</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Preview Section -->
+        <div class="video-section" id="videoSection">
+            <div class="video-container">
+                <video controls id="uploadedVideo" style="display: none;">
+                    <source src="" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="share-container" id="shareContainer" style="display: none;">
+                <h3><i class="fas fa-share-alt"></i> Share Your Video</h3>
+                <div class="share-link" id="shareLink"></div>
+                <button id="copyLink" class="copy-btn"><i class="fas fa-copy"></i> Copy Link</button>
+                <div class="social-share">
+                    <a href="#" class="social-btn facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-btn twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-btn whatsapp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="features-section">
+        <div class="feature">
+            <i class="fas fa-bolt"></i>
+            <h3>Fast Upload</h3>
+            <p>Quick and efficient video uploading</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-share-alt"></i>
+            <h3>Easy Sharing</h3>
+            <p>Share videos instantly with anyone</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-shield-alt"></i>
+            <h3>Secure</h3>
+            <p>Your videos are safe with us</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>
+                    <i class="fas fa-play-circle"></i> ORITO PLAY </h4>
+                <p></p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="#">About Us</a>
+                <a href="#">Contact</a>
+                <a href="#">FAQ</a>
+            </div>
+            <div class="footer-section">
+                <h4>Legal</h4>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">DMCA</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            Copyright © 2025 OROPEZA CORP, LLC. All rights reserved.
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
